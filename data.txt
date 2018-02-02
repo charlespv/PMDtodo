@@ -1,0 +1,92 @@
+const dataCollection = [
+    {
+  "content": [
+    {
+      "_id": 2,
+      "content": "Ajouter les routes front et api",
+      "category": "WORK",
+      "isDone": "true"
+    },
+    {
+      "_id": 3,
+      "content": "Configurer la BDD mySql",
+      "category": "WORK",
+      "isDone": "false"
+    },
+    {
+      "_id": 5,
+      "content": "Configurer le serveur NodeJS",
+      "category": "WORK",
+      "isDone": "true"
+    },
+    {
+      "_id": 9,
+      "content": "Aller manger",
+      "category": "LIFE",
+      "isDone": "false"
+    }
+  ],
+  "fields": [
+    {
+      "catalog": "def",
+      "db": "todoes",
+      "table": "tasks",
+      "orgTable": "tasks",
+      "name": "_id",
+      "orgName": "_id",
+      "charsetNr": 63,
+      "length": 11,
+      "type": 3,
+      "flags": 16899,
+      "decimals": 0,
+      "zeroFill": false,
+      "protocol41": true
+    },
+    {
+      "catalog": "def",
+      "db": "todoes",
+      "table": "tasks",
+      "orgTable": "tasks",
+      "name": "content",
+      "orgName": "content",
+      "charsetNr": 33,
+      "length": 765,
+      "type": 253,
+      "flags": 4097,
+      "decimals": 0,
+      "zeroFill": false,
+      "protocol41": true
+    },
+    {
+      "catalog": "def",
+      "db": "todoes",
+      "table": "tasks",
+      "orgTable": "tasks",
+      "name": "category",
+      "orgName": "category",
+      "charsetNr": 33,
+      "length": 765,
+      "type": 253,
+      "flags": 4097,
+      "decimals": 0,
+      "zeroFill": false,
+      "protocol41": true
+    },
+    {
+      "catalog": "def",
+      "db": "todoes",
+      "table": "tasks",
+      "orgTable": "tasks",
+      "name": "isDone",
+      "orgName": "isDone",
+      "charsetNr": 33,
+      "length": 30,
+      "type": 253,
+      "flags": 4097,
+      "decimals": 0,
+      "zeroFill": false,
+      "protocol41": true
+    }
+  ]
+}
+]

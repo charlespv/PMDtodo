@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Blog : ajouter un article</title>
+        <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    </head>
+    <body>
+        <h1>Ajouter un article</h1>
+
+        <form action="/api/add-post/" method="POST">
+            <input type="text" name="title">
+            <textarea name="content"></textarea>
+            <select name="type">
+                <option value="IMG">Image</option>
+                <option value="QUOTE">Quote</option>
+                <option value="VID">Vidéo</option>
+            </select>
+            <button type="submit">Ajouter</button>
+        </form>
+
+    </body>
+</html>
