@@ -1,0 +1,19 @@
+{
+  "name": "pmdtodo",
+  "version": "1.0.0",
+  "description": "tp 2fev",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlespv/PMDtodo.git"
+  },
+  "author": "charles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlespv/PMDtodo/issues"
+  },
+  "homepage": "https://github.com/charlespv/PMDtodo#readme"
+}
