@@ -8,6 +8,7 @@ Importer les dépendances
 
     // Modules
     const frontRoute = require('./routes/front');
+    const apiRoute = require('./routes/api');
 
 /*
 Initialiser le serveur
@@ -27,6 +28,7 @@ Initialiser le serveur
     
     // Configurer les routes
     app.use('/', frontRoute);
+    app.use('/api', apiRoute);
 
 /*
 Lancer le serveur
