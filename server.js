@@ -19,6 +19,11 @@ Initialiser le serveur
 
     // Configurer le dossier des vues client
     app.set( 'views', __dirname + '/www' );
+
+    // Définir le moteur de rendu
+    // app.engine( 'html', ejs.renderFile );
+    app.engine( 'html', ejs.renderFile );
+    app.set( 'view engine', 'html' );
     
     // Configurer les routes
     app.use('/', frontRoute);
