@@ -1,7 +1,6 @@
 # PMDtodo
 Projet de cours basé sur le site todomvc.com.
 
-<br/>
 ## User stories
 Définition des actions de l'utilisateur :
 - [] En tant qu'utilisateur je peux ajouter une tache
