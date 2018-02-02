@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/charlespv/PMDtodo#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "mongoose": "^5.0.3",
     "mysql": "^2.15.0",
     "nodemon": "^1.14.12"
   }

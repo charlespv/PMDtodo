@@ -24,7 +24,8 @@ Initialiser le serveur
     // Définir le moteur de rendu
     // app.engine( 'html', ejs.renderFile );
     app.engine( 'html', ejs.renderFile );
-    app.set( 'view engine', 'html' );
+    //app.set( 'view engine', 'html' );
+    app.set( 'view engine', 'ejs' );
     
     // Configurer les routes
     app.use('/', frontRoute);
