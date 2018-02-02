@@ -71,10 +71,9 @@ Définition des routes
             else {
 
                 // Connexion ouverte : ajouter les données dans la BDD
-                db.collection('tasks').insert( { 
-                    title: req.body.title, 
+                db.collection('tasks').insert( {  
                     content: req.body.content,
-                    type: req.body.type 
+                    state: false
 
                 }, (err, newObject) => {
                     // Vérifier l'ajout
