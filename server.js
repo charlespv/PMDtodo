@@ -8,6 +8,7 @@ Importer les dépendances
 
     // Modules
     const frontRoute = require('./routes/front');
+    const apiRoute = require('./routes/api');
 
 /*
 Initialiser le serveur
@@ -23,10 +24,12 @@ Initialiser le serveur
     // Définir le moteur de rendu
     // app.engine( 'html', ejs.renderFile );
     app.engine( 'html', ejs.renderFile );
-    app.set( 'view engine', 'html' );
+    //app.set( 'view engine', 'html' );
+    app.set( 'view engine', 'ejs' );
     
     // Configurer les routes
     app.use('/', frontRoute);
+    app.use('/api', apiRoute);
 
 /*
 Lancer le serveur

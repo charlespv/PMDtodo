@@ -9,11 +9,16 @@
     </head>
     <body>
         <header>
-            <h1>Hello Nodejs</h1>
+            <h1>Hello Nodejs !</h1>
         </header>
 
         <main>
-            
+            <!-- Faire une boucle sur la collection de données -->
+            <% for(var item of data) { %>
+                <article>
+                    <h2><%= item.content %> <b><%= item.state %></b></h2>
+                </article>
+            <% } %>    
 
         </main>
 

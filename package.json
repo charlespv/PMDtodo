@@ -4,7 +4,7 @@
   "description": "tp 2fev",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/charlespv/PMDtodo#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "mongoose": "^5.0.3",
+    "mysql": "^2.15.0",
     "nodemon": "^1.14.12"
-  },
-  "scripts": {
-    "start": "nodemon server.js"
   }
 }
