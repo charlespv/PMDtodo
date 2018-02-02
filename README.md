@@ -25,24 +25,24 @@ Le but est de définir le-s model-s de données à utiliser pour l'application
 - 3. Comment une tâche est supprimée ?
 - 4. Comment les tâches sont filtrées ?
 
-<br>
+
 ### 1. Combien d'informations faut-il enregister pour une tâche ?
 Il faut 3 informations :
 - _id: string
 - state: boolean
 - content: string
 
-<br>
+
 ### 2. Comment une tâche est validée ?
 Quand la propriété `state` est égale à `true`.
 
-<br>
+
 ### 3. Comment une tâche est supprimée ?
 Chaque tâche présente un bouton qui, au clic, permet de supprimer l'objet
 - [ ] Je dois connaître la propriété `_id` de l'objet
 - [ ] Créer une route `api` pour supprimer l'objet de la base de données
 
-<br>
+
 ### 4. Comment les tâches sont filtrées ?
 Je dois sélectionner tous les objets et n'afficher que ceux dont la propriété `state` est égale à `true` (ou `false`)
 - [ ] Créer une route `api` pour sélectionnher les tâches
