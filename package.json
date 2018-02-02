@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/charlespv/PMDtodo/issues"
   },
-  "homepage": "https://github.com/charlespv/PMDtodo#readme"
+  "homepage": "https://github.com/charlespv/PMDtodo#readme",
+  "dependencies": {
+    "nodemon": "^1.14.12"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
 }
